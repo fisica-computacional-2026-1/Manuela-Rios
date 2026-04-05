@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-04-05T20:38:57.781946+00:00",
+  "runner": "src.pipeline.w06b_runner",
+  "pipeline_module": "src.pipeline.w07_pipeline",
+  "stages": [
+    {
+      "mode": "silver",
+      "seconds": 0.3084,
+      "returncode": 0
+    },
+    {
+      "mode": "dims",
+      "seconds": 0.4514,
+      "returncode": 0
+    },
+    {
+      "mode": "gold",
+      "seconds": 0.2528,
+      "returncode": 0
+    },
+    {
+      "mode": "export",
+      "seconds": 0.3025,
+      "returncode": 0
+    }
+  ]
+}
